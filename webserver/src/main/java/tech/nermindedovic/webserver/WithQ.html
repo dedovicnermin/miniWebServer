@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>With Query String</title>
+</head>
+<body>
+    <div class="header" style="display: flex;justify-content: center">
+        <h4>Hello Friend!</h4>
+        <!--  Replace friend with name if present      -->
+    </div>
+
+    <div class="metacontent" style="display: flex;justify-content: center">
+        <p>Based on your last request, the sum of 3 and 3 is 6</p>
+    </div>
+
+
+<!--    <div class="metacontent" style="display: flex;justify-content: center">-->
+<!--        <p>Enter your name and two numbers followed by calculate to get the sum</p>-->
+<!--    </div>-->
+
+
+    <div class="form" style="display: flex;justify-content: center; border: black 2px solid; margin: 15px">
+        <FORM method="GET" action="http://localhost:2540/WebAdd.fake-cgi">
+
+            <INPUT TYPE="text" NAME="person" size=20 value="YourName"><P>
+
+            <INPUT TYPE="text" NAME="num1" size=5 value="4"> <br>
+            <INPUT TYPE="text" NAME="num2" size=5 value="5"> <p>
+
+            <INPUT TYPE="submit" VALUE="Submit Numbers">
+
+        </FORM>
+    </div>
+
+
+</body>
+</html>
